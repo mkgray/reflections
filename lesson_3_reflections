@@ -2,3 +2,6 @@ When would you want to use a remote repository rather than keeping all your work
 local?
 A remote repository offers many advantages, such as developing over multiple machines without having to transfer files the old way. Furthermore, a remote repository on the cloud improves reliability.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Manual change pulling allows you to work on a frozen instance of the program under development, such that you do not have to worry that code which you are working on is not being significantly changed constantly while you work. In this respect you can concentrate solely on your branch, and isolate the merging/compatability issues after you are ready to push/pull.
+
