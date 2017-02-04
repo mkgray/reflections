@@ -13,4 +13,13 @@ to be committed. This allows for the user to not include into the repo
 any unnecessary files such as test scripts and binaries which are not part
 of the main program, but have been used to help debug/test the program.
 
+How can you use the staging area to make sure you have one commit per logical change?
+As previously mentioned, the staging area acts as a filter between the working directory and the repo. In this respect, you may use the staging area to filter out all modifications which do not relate to a logical change, as per the good practices of git commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would these branches help?
+Branches are particularily useful for developing features without compromising the main branch in the case the feature introduces errors. In this case we may easily checkout between the feature branch to work on a feature in progress, however we may leave the master branch alone as it should only contain fully operational code. We may later merge the feature branch with the master branch, once the feature has been fully integrated.
+
+
+
+
 
