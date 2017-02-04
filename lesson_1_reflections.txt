@@ -1,0 +1,30 @@
+Diff allowed us to compare the changes in text, which ultimately helped spot a typo that was made in modifications. Without the usage of a difference
+function, we would have had to spend significant time in manually scanning code to see what went wrong.
+
+Easy access of a files history allows us to revert back to previous versions without manually making changes. In this respect, we can then
+revert to a previous point in time before the code stopped working, or we canned an unecessary feature, etc..
+
+What are the pros and cons to manually choosing when to commit, versus automatically saved versions?
+Pro: Logical sectioning of work, as opposed to semi-random sectioning as a result of automatic save points
+Pro: Can save at any time for any reason as required, versus requiring waiting on the autosave function.
+Con: Heavy dependence on users triggering, no save occurs if hte user forgets.
+Con: Requires triggering by the user, i.e. the user has to consciously stop programming to force a commit, and therefore
+     may distance themselves from the programming task.
+
+Version control systems like Git allow saving multiple files in one commit most likely due to the programming nature of the system.
+In this respect, the addition of a feature or resolving of a bug may span more than one document at a time, therefore to encapsulate
+the whole change in a more organized fashion, multiple files may need changing over a single commit in length.
+
+The usage of git log and git diff allow us to view a log of all the commits that have occurred since the initialization of the repo,
+in this respect, commits are ordered from newest at the top to oldest at the bottom. This log list gives us the ability to grab git ID's
+on commits, which then enable us to compare the changes of code between two different versions via git diff
+
+Version control makes up more confident to make larger changes which might break the program, as
+the git diff commands and version control functions make comparisons between versions easy.Through
+easy version comparison, the time required to debug and isolate problems which break functions is
+significantly reduced, and therefore makes us less hesitant to make changes to the program.
+
+
+
+
+
