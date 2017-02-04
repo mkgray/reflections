@@ -22,6 +22,8 @@ Branches are particularily useful for developing features without compromising t
 How do the diagrams help you visualize the branch structure?
 Diagrams help us visualize the branch structure as the git repo follows a natural tree-based style. By adding branches as parallel running projects we are essentially adding branches within a tree graph. Furthermore, each commit acts as a node in the tree diagram, extending from a prior node based to the root or origin point of the repository. In this respect, it is natural to view the repo commit history as a tree structure and therefore a diagram.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together literally weaves the changes made to the program together, typically to combine the branches in a form least likely to cause interlock errors. This is accurately represented in the diagram as two separate branches joining together, symbolizing the uniting of the code of both branches.
 
 
 
