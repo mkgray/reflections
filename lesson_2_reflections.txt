@@ -19,6 +19,8 @@ As previously mentioned, the staging area acts as a filter between the working d
 What are some situations when branches would be helpful in keeping your history organized? How would these branches help?
 Branches are particularily useful for developing features without compromising the main branch in the case the feature introduces errors. In this case we may easily checkout between the feature branch to work on a feature in progress, however we may leave the master branch alone as it should only contain fully operational code. We may later merge the feature branch with the master branch, once the feature has been fully integrated.
 
+How do the diagrams help you visualize the branch structure?
+Diagrams help us visualize the branch structure as the git repo follows a natural tree-based style. By adding branches as parallel running projects we are essentially adding branches within a tree graph. Furthermore, each commit acts as a node in the tree diagram, extending from a prior node based to the root or origin point of the repository. In this respect, it is natural to view the repo commit history as a tree structure and therefore a diagram.
 
 
 
