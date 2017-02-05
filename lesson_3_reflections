@@ -19,7 +19,15 @@ that we may see the last time we had synchronized with the repo.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without the usage of Git or GitHub, we would have to use much more manual version control and collaborative coding techniques, specifically the usage of transferring files via flash drives/CDs/or another online form of storage. In this respect it is much harder to track the changes that people are performing, as comparisons may be harder to make. As well, there is no easy method to track bug reports, and merging would be done typically with less care; as no software acts as an intermediate scanner between differences of prior and current versions.
 
-
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes in separate branches allows you to develop features or experimental
+ideas without directly affecting the production ready master branch. In this respect
+you can establish a frozen instance of the master branch, allowing you to focus on
+your feature alone, and only worry about integrating with the master when the
+feature is ready. Another benefit is the ability to alternate between different
+branches as isolated branches of the working master program, to have the ability
+to easily switch between working on a new feature and going back to the working master
+for purposes such as bug fixing.
 
 
 
